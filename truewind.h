@@ -1,5 +1,5 @@
 struct tw_input {
- double bspd;
+ 	double bspd;
         double sog;
         double cog;
         double aws;
@@ -9,7 +9,7 @@ struct tw_input {
         double roll;
         double pitch;
         double K;
-        char *speedunit;
+        char speedunit[10];
 };
 
 struct tw_output {
